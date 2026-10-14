@@ -1,0 +1,29 @@
+# Dependencies
+node_modules
+
+# Build
+dist
+
+# Environment
+.env
+.env.local
+.env.*
+!.env.example
+
+# Editor
+.vscode
+.idea
+
+# OS
+.DS_Store
+
+# XRift
+.xrift
+
+# Skills
+.agents
+
+# Local preview and browser test output
+output/
+.playwright-cli/
+*.log
